@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'changeme')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG', 0)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-vasyl808-recipeappapi-znrhabvv0r7.ws-eu115.gitpod.io']
 ALLOWED_HOSTS.extend(
     filter(
         None,
