@@ -35,6 +35,10 @@ ALLOWED_HOSTS.extend(
     )
 )
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-vasyl808-recipeappapi-znrhabvv0r7.ws-eu115.gitpod.io'
+]
+
 # Application definition
 
 INSTALLED_APPS = [
