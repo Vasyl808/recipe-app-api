@@ -1,6 +1,4 @@
-### This project is built with Django and Docker.
-Recipe API project
-
+### Recipe API project
 This project is built with Django and containerized using Docker. This guide provides step-by-step instructions for running the project locally in development mode and deploying it to production.
 
 ## Requirements
